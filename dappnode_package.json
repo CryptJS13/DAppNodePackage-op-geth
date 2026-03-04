@@ -14,20 +14,20 @@
   "architectures": ["linux/amd64", "linux/arm64"],
   "links": {
     "homepage": "https://github.com/CryptJS13/DAppNodePackage-op-geth#readme",
-    "api": "http://op-geth.dappnode:8545",
-    "engineAPI": "http://op-geth.dappnode:8551"
+    "api": "http://base-op-geth.public.dappnode:8545",
+    "engineAPI": "http://base-op-geth.public.dappnode:8551"
   },
   "exposable": [
     {
       "name": "Base OP-Geth JSON-RPC (HTTP)",
       "description": "HTTP JSON-RPC endpoint for Base OP-Geth",
-      "serviceName": "op-geth",
+      "serviceName": "base-op-geth",
       "port": 8545
     },
     {
       "name": "Base OP-Geth JSON-RPC (WS)",
       "description": "WS JSON-RPC endpoint for Base OP-Geth",
-      "serviceName": "op-geth",
+      "serviceName": "base-op-geth",
       "port": 8546
     }
   ],
@@ -45,7 +45,7 @@
   "globalEnvs": [
     {
       "envs": ["OP_ENABLE_HISTORICAL_RPC"],
-      "services": ["geth"]
+      "services": ["base-op-geth"]
     }
   ]
 }
