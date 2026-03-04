@@ -13,7 +13,7 @@ services:
       - P2P_PORT=33142
       - SYNCMODE=snap
       - HISTORICAL_RPC_URL=http://op-l2geth.dappnode:8545
-      - SEQUENCER_HTTP_URL=https://mainnet-sequencer.optimism.io/
+      - SEQUENCER_HTTP_URL=https://mainnet-sequencer.base.org/
     image: geth.op-geth.dnp.dappnode.eth:0.1.1
     ports:
       - 33142:33142/tcp
