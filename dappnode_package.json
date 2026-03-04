@@ -1,7 +1,7 @@
 {
   "name": "base-op-geth.public.dappnode.eth",
   "version": "0.1.0",
-  "upstreamVersion": "v1.101411.6",
+  "upstreamVersion": "v1.101609.1",
   "upstreamRepo": "ethereum-optimism/op-geth",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "Geth execution client for Base (OP Stack)",
