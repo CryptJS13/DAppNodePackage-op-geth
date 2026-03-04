@@ -73,6 +73,6 @@ exec geth --rollup.sequencerhttp $SEQUENCER_HTTP_URL \
   --authrpc.jwtsecret /config/jwtsecret.hex \
   --verbosity 3 \
   --port ${P2P_PORT} \
-  --networkid 10 \
-  --op-network op-mainnet \
+  --networkid 8453 \
+  --op-network base-mainnet \
   ${EXTRA_FLAGS}
